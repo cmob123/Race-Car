@@ -43,7 +43,7 @@ public class RaceCar extends JFrame {
                   bet = Integer.parseInt(tBet.getText());
                }
                catch(NumberFormatException nfe){
-		    	      lStatus.setText("ERROR: input a # 1-15 for car & a # 1-" + CarPanel.amtLeft + " for bet");
+		    	      lStatus.setText("ERROR: input a # 1-" + CarPanel.numberOfCars + " for car & a # 1-" + CarPanel.amtLeft + " for bet");
 			         return;
 		         }
             }         
